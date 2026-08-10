@@ -17,3 +17,6 @@ def add_todo(title):
 
 def get_todos():
     return todos
+
+def friends():
+    return len(todos)
