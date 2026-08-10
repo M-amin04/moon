@@ -10,3 +10,6 @@ def add_todo(title):
 
     todos.append(todo)
     return todo
+
+def get_todos():
+    return todos
